@@ -1,0 +1,233 @@
+*{
+    margin:0;
+}
+body{
+   background-color: black;
+  height: 150%;
+}
+.container{
+    background-color: black;
+    color: rgb(241, 233, 233);;
+}
+
+.navbar{
+    background-color:rgb(0, 0, 0);
+    height: 60px;
+    color: rgb(241, 233, 233);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+.logo{
+    font: italic;
+    font-size: 50px;
+    color: aliceblue;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    padding: 0;
+}
+.menu-list-item{
+    cursor: pointer;
+}
+.menu-list-item:hover{
+    font-weight: bold;
+}
+.menu-list-item.active{
+    font-weight: bold;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
+
+.sidebar{
+    background-color: black;
+    color: rgb(241, 233, 233);
+    height:100% ;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+    position: fixed;
+    top: 0;
+}
+.sidebar i{
+    color: rgb(241, 233, 233) ;
+    font-size: 20px;
+    cursor: pointer;
+}
+.movie-list-filter{
+    margin: 20px 0 20px 50px;
+    padding: 20px;
+}
+.movie-list-filter select{
+    background-color: black;
+    color: rgb(241, 233, 233);
+    padding: 7px 0;
+    width: 125px;
+}
+.movie-list-container{
+    margin-left: 70px;
+}
+.movie-list{
+    list-style: none;
+    padding: 0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+}
+.movie-list-title{
+    color: rgb(241, 233, 233);
+}
+.movie-list-wrapper{
+    overflow: hidden;
+}
+.movie-item{
+    position: relative;
+}
+.movie-item:hover .movie-item-title,
+.movie-item:hover .movie-item-buttons{
+   opacity: 1;
+}
+.movie-item:hover .movie-item-img{
+   transform: scale(1.2);
+   margin: 0 30px;
+   opacity: .5;
+}
+.movie-item-img{
+    width: 270px;
+    height:200px ;
+    object-fit: cover;
+    transition: 1s all ease-in-out;
+}
+.movie-item-title{
+    background-color: darkgrey;
+    color: rgb(255, 254, 252);
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left:40px ;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.movie-item-buttons{
+    background-color: darkgrey;
+    color: beige;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+    left:40px ;
+    display: flex;
+    column-gap: 20px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    
+}
+.movie-item-buttons i{
+    cursor: pointer;
+    opacity: .5;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+.movie-item-buttons i:hover{
+    opacity: 1;
+}
+.sign-in-container{
+    top: 30%;
+    text-align: center;
+    color: beige;
+}
+.number-email-container{
+    color: beige;
+    font-size: 80%;
+   display: flow-root;
+   font-family: 'Times New Roman', Times, serif;
+}
+.register-container{
+    top: 30%;
+    text-align: center;
+    color: beige;
+}
+.movie-container{
+    width: 200px;
+    height:300px ;
+   padding: 0 60px;
+   top: 30%;
+}
+.movie-title{
+    color: beige;
+    padding: 0 30px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left:40px ;
+}
+.movie-review{
+    background-color: black;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   padding: 0 30px;
+   position: absolute;
+   text-align: center;
+}
+.movie-info-item{
+    color: aliceblue;
+    padding: 0 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;     
+    text-align: left;                                                                                                                                                                                                                                               ;
+}
+.info-item{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: left;
+}
+.point{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    padding: 10 200px;
+}
+.special-design-welcome{
+    background-color: #BAB095;
+    font-size: 45;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 100px;
+    text-align: center;
+
+}

@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>tvtube-register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body LINK="beige" VLINK="beige" ALINK="beige">
+    <div class="navbar">
+        <div class="navbar-wrapper"> 
+            <div class="logo-wrapper">
+                <h1 class="logo">tvtube</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">
+                        <a href="index.html"> Main Menu</a>
+                    </li>
+                    <li class="menu-list-item active">Shows</li>
+                    <li class="menu-list-item active">Discover</li> 
+                </ul>
+            </div>
+            <div class="profile-container">
+            
+                <img class="profile-picture" src="user.jpg" alt="">
+            
+                <div class="profile-text-container">
+                    <span>
+                        <select onchange="la(this.value)">
+                            <option disabled selected> Profile </option>
+                            <option value="signin.html"> SIGN IN </option>
+                            <option value="register.html"> REGISTER </option>
+                        </select>
+                        <script>
+                            function la(src){
+                                window.location=src;
+                            }
+                        </script>
+                    </span>
+                    <li class="menu-list-item"></li>
+                    <span>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+    <br> <br> <br> <br> <br>
+
+    <div class="register-container">
+    <h1 class="register-title"> REGISTER</h1>
+<br>
+<div class="number-email-container">
+    <h2 class="number-email-title"> Mobile number or email address:
+    <input type:"text" name="name" value="" size="50" maxlength="50">
+    </h2>
+</div>
+<br>
+<input type="checkbox" name="name" value=" " > I agree to the Privacy & Cookie Policy and Terms & Conditions.
+<br> <br>
+<a href="index.html">CONTUNIE</a>
+<br> <br>
+<form align="center">
+    <i><u> Or you can also join with:</u></i>
+  <br> <br> 
+  <img src ="facebook.png" height="30" width="30"> 
+  <a href ="https://www.facebook.com/login.php/"> Facebook </a> 
+  <br> <br>
+  <img src ="google.png" height="30" width="30"> 
+  <a href ="https://myaccount.google.com/"> Google </a> 
+</form>
+</div>
+    </body>
+    
+    </html>

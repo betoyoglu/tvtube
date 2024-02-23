@@ -1,0 +1,311 @@
+<html>
+
+<head>
+    <title>tvtube</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body LINK="beige" VLINK="beige" ALINK="beige">
+    <div class="navbar">
+        <div class="navbar-wrapper"> 
+            <div class="logo-wrapper">
+                <h1 class="logo">tvtube</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Main Menu</li>
+                    <li class="menu-list-item active">Shows</li>
+                    <li class="menu-list-item active">Discover</li> 
+                </ul>
+            </div>
+            <input type="button"
+            value="javascript button"
+            onclick="javascript()">
+            <script>
+                function javascript(){
+                    alert("Alert from Javacript!")
+                }
+            </script> 
+            <div class="profile-container">
+            
+                <img class="profile-picture" src="user.jpg" alt="">
+            
+                <div class="profile-text-container">
+                    <span>
+                        <select onchange="la(this.value)">
+                            <option disabled selected> Profile </option>
+                            <option value="signin.html"> SIGN IN </option>
+                            <option value="register.html"> REGISTER </option>
+                        </select>
+                        <script>
+                            function la(src){
+                                window.location=src;
+                            }
+                        </script>
+                    </span>
+                    <li class="menu-list-item"></li>
+                    <span>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+    <div class="movie-list-filter">
+        <select>
+            <option> Action </option>
+            <option> Animation </option>
+            <option> Documentary </option>
+            <option> Comedy </option>
+            <option> Romantic </option>
+            <option> Science Fiction </option>
+        </select>
+    </div>
+    <br>
+    <div id="specialdesign">
+       <h1 class="special-design-welcome">Welcome!</h1>
+    </div>
+    <br>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Popular</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <a href="2521.html">
+                        <img src="2521.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                        </a>
+               <div class="movie-item-info">
+                <span class="movie-item-title"> TWENTY FIVE TWENTY ONE</span>
+                <div class="movie-item-buttons">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                    <i class="bi bi-plus-circle-fill"></i>
+                </div>
+               </div>
+            </li>
+            <li class="movie-item">
+                <a href="vincenzo.html">
+                    <img src="vincenzo.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                    </a>
+               <div class="movie-item-info">
+                <span class="movie-item-title"> VINCENZO </span>
+                <div class="movie-item-buttons">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                    <i class="bi bi-plus-circle-fill"></i>
+                </div>
+            </div>
+         </li>
+         <li class="movie-item">
+            <a href="modernfamily.html">
+                <img src="modernfamily.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                </a>
+           <div class="movie-item-info">
+            <span class="movie-item-title"> MODERN FAMILY </span>
+            <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+            </div>
+        </div>
+     </li>
+     <li class="movie-item">
+        <a href="ourbelovedsummer.html">
+            <img src="ourbelovedsummer.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+            </a>
+       <div class="movie-item-info">
+        <span class="movie-item-title"> OUR BELOVED SUMMER </span>
+        <div class="movie-item-buttons">
+            <i class="bi bi-play-circle-fill"></i>
+            <i class="bi bi-hand-thumbs-up-fill"></i>
+            <i class="bi bi-hand-thumbs-down-fill"></i>
+            <i class="bi bi-plus-circle-fill"></i>
+        </div>
+    </div>
+ </li>
+ <li class="movie-item">
+    <a href="reply1988.html">
+        <img src="reply1988.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+        </a>
+   <div class="movie-item-info">
+    <span class="movie-item-title"> REPLY 1988 </span>
+    <div class="movie-item-buttons">
+        <i class="bi bi-play-circle-fill"></i>
+        <i class="bi bi-hand-thumbs-up-fill"></i>
+        <i class="bi bi-hand-thumbs-down-fill"></i>
+        <i class="bi bi-plus-circle-fill"></i>
+    </div>
+</div>
+</li>
+            </ul>
+        </div>
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">New Shows</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <a href="reply1988.html">
+                        <img src="reply1988.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                        </a>
+                   <div class="movie-item-info">
+                    <span class="movie-item-title"> REPLY 1988 </span>
+                    <div class="movie-item-buttons">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        <i class="bi bi-hand-thumbs-down-fill"></i>
+                        <i class="bi bi-plus-circle-fill"></i>
+                    </div>
+                </div>
+                </li>
+                <li class="movie-item">
+                    <a href="2521.html">
+                        <img src="2521.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                        </a>
+               <div class="movie-item-info">
+                <span class="movie-item-title"> TWENTY FIVE TWENTY ONE</span>
+                <div class="movie-item-buttons">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                    <i class="bi bi-plus-circle-fill"></i>
+                </div>
+               </div>
+            </li>
+            <li class="movie-item">
+                <a href="vincenzo.html">
+                    <img src="vincenzo.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                    </a>
+               <div class="movie-item-info">
+                <span class="movie-item-title"> VINCENZO </span>
+                <div class="movie-item-buttons">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                    <i class="bi bi-plus-circle-fill"></i>
+                </div>
+            </div>
+         </li>
+         <li class="movie-item">
+            <a href="ourbelovedsummer.html">
+                <img src="ourbelovedsummer.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                </a>
+           <div class="movie-item-info">
+            <span class="movie-item-title"> OUR BELOVED SUMMER </span>
+            <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+            </div>
+        </div>
+     </li>
+         <li class="movie-item">
+            <a href="modernfamily.html">
+                <img src="modernfamily.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                </a>
+           <div class="movie-item-info">
+            <span class="movie-item-title"> MODERN FAMILY </span>
+            <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+            </div>
+        </div>
+     </li>
+            </ul>
+        </div>
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Premieres and Finales</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <a href="vincenzo.html">
+                        <img src="vincenzo.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                        </a>
+                   <div class="movie-item-info">
+                    <span class="movie-item-title"> VINCENZO </span>
+                    <div class="movie-item-buttons">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        <i class="bi bi-hand-thumbs-down-fill"></i>
+                        <i class="bi bi-plus-circle-fill"></i>
+                    </div>
+                </div>
+             </li>
+                <li class="movie-item">
+                    <a href="2521.html">
+                        <img src="2521.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                        </a>
+               <div class="movie-item-info">
+                <span class="movie-item-title"> TWENTY FIVE TWENTY ONE</span>
+                <div class="movie-item-buttons">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                    <i class="bi bi-plus-circle-fill"></i>
+                </div>
+               </div>
+            </li>
+         <li class="movie-item">
+            <a href="modernfamily.html">
+                <img src="modernfamily.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+                </a>
+           <div class="movie-item-info">
+            <span class="movie-item-title"> MODERN FAMILY </span>
+            <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+            </div>
+        </div>
+     </li>
+     <li class="movie-item">
+        <a href="reply1988.html">
+            <img src="reply1988.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+            </a>
+       <div class="movie-item-info">
+        <span class="movie-item-title"> REPLY 1988 </span>
+        <div class="movie-item-buttons">
+            <i class="bi bi-play-circle-fill"></i>
+            <i class="bi bi-hand-thumbs-up-fill"></i>
+            <i class="bi bi-hand-thumbs-down-fill"></i>
+            <i class="bi bi-plus-circle-fill"></i>
+        </div>
+    </div>
+    </li>
+     <li class="movie-item">
+        <a href="ourbelovedsummer.html">
+            <img src="ourbelovedsummer.jpg" alt="" width ="270px" height="200px" object-fit="cover" transition="1s all ease-in-out">
+            </a>
+       <div class="movie-item-info">
+        <span class="movie-item-title"> OUR BELOVED SUMMER </span>
+        <div class="movie-item-buttons">
+            <i class="bi bi-play-circle-fill"></i>
+            <i class="bi bi-hand-thumbs-up-fill"></i>
+            <i class="bi bi-hand-thumbs-down-fill"></i>
+            <i class="bi bi-plus-circle-fill"></i>
+        </div>
+    </div>
+ </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
